@@ -30,6 +30,13 @@ Install via pip:
 pip install handsome_log
 ```
 
+## Features
+Normal logging with colors
+
+Normal logging without colors
+
+For loop logging
+
 ## Usage 
 To import and use the library you can use: 
 
