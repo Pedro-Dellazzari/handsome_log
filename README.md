@@ -60,4 +60,22 @@ logger.critical("Critical Error")
 
 ![handsome_log_example_01](https://github.com/user-attachments/assets/dacbad77-5f89-410a-83bd-1e622f68e0ed)
 
+## Usage (For loop)
+
+```bash
+from handsome_log import get_logger
+import time
+
+#create logger object
+logger = get_logger(__name__)
+
+for user in logger.loop_status(range(100), message="Extracting users", show_percent=True):
+    time.sleep(0.02)
+```
+![handsome_log_example_02](https://github.com/user-attachments/assets/8099694f-7da4-4446-9e7a-0539c9175305)
+
+![handsome_log_example_03](https://github.com/user-attachments/assets/2e036d1b-a26c-41f7-a0ce-5437ca007a75)
+
+
+
 
