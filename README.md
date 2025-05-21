@@ -56,5 +56,8 @@ logger.success("Success information")
 logger.warning("Warning")
 logger.error("Error")
 logger.critical("Critical Error")
-``
+```
+
+![handsome_log_example_01](https://github.com/user-attachments/assets/dacbad77-5f89-410a-83bd-1e622f68e0ed)
+
 
